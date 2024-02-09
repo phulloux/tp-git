@@ -92,16 +92,23 @@ Exécuter git status et copier/coller la sortie
 - no changes added to commit (use "git add" and/or "git commit -a")
 
 Ajouter fichier1.md et fichier2.md à la zone de Staging
-
+git add fichier.md fichier2.md
 
 Créer un commit “Ajout de fichier2.md et modification de fichier1.md”
+git commit -m "Ajout de fichier2.md et modification de fichier.md."
 
 Exécuter git status et copier/coller la sortie
+- On branch master
+- nothing to commit, working tree clean
+
 
 Copier/coller l’ID des deux premiers commits (utiliser log) :
 
-ID commit 1 :
-ID commit 2 :
+ID commit 1 : ea339bf8c6593e07a697abacb5bba96b6c6f107a
+ID commit 2 : d602041ce1c3bc549597885dbccf692e7dfff80c
+
 Que signifie qu’un fichier est “tracked” ou “untracked“ ?
+- cela signifie qu'il a été ajouté ou pas dans le git.
 
 Pourquoi doit-on passer les fichiers par la zone de Staging (l’index) avant de les committer ?
+- le git va pouvoir les prendre en charge pour les commit apres.
