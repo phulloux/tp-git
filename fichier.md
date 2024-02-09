@@ -114,3 +114,4 @@ Pourquoi doit-on passer les fichiers par la zone de Staging (l’index) avant de
 - le git va pouvoir les prendre en charge pour les commit apres.
 
 salut les copains, je modifie juste le fichier
+let's go
