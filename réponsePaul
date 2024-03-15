@@ -292,15 +292,18 @@ Faire un fork du dépôt https://github.com/rose-line/sio1-2024-java-grpb (pas p
 Cloner localement votre fork (ne pas cloner le dépôt original)
 
 Quelle est la différence entre un fork et un clonage ?
-Indiquer dans quelles circonstances on voudrait forker et/ou cloner un dépôt
-Modifier le fichier README.md à la racine du dépôt en ajoutant une ligne quelconque
+- un fork, permet de reprendre un dépot git sur son compte alors qu'un clonage va reprendre le dépot git et va l'enregistrer sur l'ordinateur sans le push.
 
+Indiquer dans quelles circonstances on voudrait forker et/ou cloner un dépôt
+
+Modifier le fichier README.md à la racine du dépôt en ajoutant une ligne quelconque 
 On veut maintenant envoyer cette modification vers le dépôt distant
 
 Il faut d'abord faire un add/commit local
 Puis utiliser la commande qui « pousse » les modifs sur le dépôt GitHub (push)
 Vérifier directement sur GitHub que le push a bien fonctionné
 Trouver la commande qui affiche le nom du ou des dépôt(s) distant(s) relié(s) avec le dépôt local : cela permet de savoir si le dépôt courant est synchronisé avec un dépôt en ligne ou non
+- git fetch 
 
 On va faire un merge en local puis push :
 
